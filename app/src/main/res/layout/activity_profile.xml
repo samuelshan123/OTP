@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Profile">
+
+
+    <LinearLayout
+        android:onClick="travelvia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:gravity="center"
+        android:layout_margin="20dp"
+        android:elevation="6dp"
+        android:orientation="vertical"
+        android:padding="0dp"
+        >
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/icons8_traffic_jam_500px_1" />
+
+
+        <TextView
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Individual / Group Travel via \n Bike / Bus / Van"
+            android:textColor="#6f6f6f"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:paddingBottom="20dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:onClick="commercialesta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:gravity="center"
+        android:layout_margin="20dp"
+        android:elevation="6dp"
+        android:orientation="vertical"
+        android:padding="0dp"
+        >
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/icons8_robot_500px_1" />
+
+
+        <TextView
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Commercila Establishments /\n Organization / Industries"
+            android:textColor="#6f6f6f"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:paddingBottom="20dp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:onClick="commingin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:gravity="center"
+        android:layout_margin="20dp"
+        android:elevation="6dp"
+        android:orientation="vertical"
+        android:padding="0dp"
+        >
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/common_full_open_on_phone" />
+
+
+        <TextView
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Comming Inside Tamil Nadu \n / Train / Flight"
+            android:textColor="#6f6f6f"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:paddingBottom="20dp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:onClick="travelwith"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:gravity="center"
+        android:layout_margin="20dp"
+        android:elevation="6dp"
+        android:orientation="vertical"
+        android:padding="0dp"
+        >
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/common_full_open_on_phone" />
+
+        <TextView
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Travel Within Tamil Nadu \n / Train / Flight"
+            android:textColor="#6f6f6f"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:paddingBottom="10dp"/>
+
+    </LinearLayout>
+</LinearLayout>
